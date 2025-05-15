@@ -1,0 +1,23 @@
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python3 get-pip.py
+pip3 --version
+pip3 install pyttsx3
+pip3 install speechrecognition
+pip3 install PyAudio
+xcode-select --install
+
+To install pyaudio we need to follow steps:
+	a./ Install brew
+		1./ Access to https://brew.sh/
+		2./ Copy the install command:
+			/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+		3./ Paste the install command into terminal shell
+	b./ Install portaudion
+		brew install portaudio
+	c./ Install pyaudio
+		pip3 install pyaudio
+
+Error handling
+
+AI (Tri tue nhan tao)
+NLP - Natural language processing (Xu ly ngon ngu tu nhien)
