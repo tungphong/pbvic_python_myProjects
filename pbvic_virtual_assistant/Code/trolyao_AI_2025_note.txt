@@ -1,0 +1,36 @@
+Step 1: Login my ChatGPT to have API (key = OPENAI_API_KEY)
+	You pay how much you use
+	https://platform.openai.com/settings/organization/api-keys
+
+API_Key: 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
+
+pip install openai
+
+from openai import OpenAI
+
+client = OpenAI(
+  api_key="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"
+)
+
+completion = client.chat.completions.create(
+  model="gpt-4o-mini",
+  store=True,
+  messages=[
+    {"role": "user", "content": "write a haiku about ai"}
+  ]
+)
+
+print(completion.choices[0].message);
+
+================Curl===============
+curl https://api.openai.com/v1/chat/completions \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer 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" \
+  -d '{
+    "model": "gpt-4o-mini",
+    "store": true,
+    "messages": [
+      {"role": "user", "content": "write a haiku about ai"}
+    ]
+  }'
+
