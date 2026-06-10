@@ -1,2 +1,3 @@
+Settings/Developer Settings/Personal access tokens/Tokens(classic)
 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
 git remote set-url origin https://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@github.com/tungphong/pbvic_python_myProjects

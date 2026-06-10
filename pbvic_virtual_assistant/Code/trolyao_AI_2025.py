@@ -8,7 +8,7 @@ from openai import OpenAI
 import pygame
 
 client = OpenAI(
-  api_key="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"
+  api_key="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"
 )
 
 robot_ear = speech_recognition.Recognizer()
