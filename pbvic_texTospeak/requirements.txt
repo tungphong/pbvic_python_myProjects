@@ -1,0 +1,11 @@
+certifi==2024.7.4
+charset-normalizer==3.3.2
+idna==3.7
+PyAudio==0.2.14
+requests==2.33.0
+SpeechRecognition==3.10.1
+typing_extensions==4.9.0
+urllib3==2.7.0
+translators
+pyttsx3~=2.99
+translators~=6.0.4
